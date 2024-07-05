@@ -1,5 +1,10 @@
 "use client"
 
+import { Sacramento } from "next/font/google";
+
+// Importe a fonte Sacramento conforme necessário
+const sacramento = Sacramento({ weight: '400', subsets: ['latin'] })
+
 import React, { useState } from 'react';
 import { FcNext, FcPrevious } from "react-icons/fc";
 
@@ -26,7 +31,7 @@ return (
 <section className=" flex justify-center items-center py-32 px-4">
   <div className=' flex flex-col items-center justify-center gap-10 r md:max-w-6xl w-full'>
     <h3 className="lg:text-center text-center text-2xl text-teal-600">
-      Tecidos <span className="text-red-400"> e</span> revestimentos</h3>
+      Tecidos <span className={`${sacramento.className} text-red-500 text-5xl`}> e </span> revestimentos</h3>
     <div className="relative w-full h-80">
       <button className="absolute top-1/2 md:-left-20 transform -translate-y-1/2 text-red-400 p-2 rounded-full"
         onClick={prevSlide}>

@@ -1,5 +1,10 @@
 "use client"
 
+import { Sacramento } from "next/font/google";
+
+// Importe a fonte Sacramento conforme necessário
+const sacramento = Sacramento({ weight: '400', subsets: ['latin'] })
+
 export function CreationAndCustomization() {
 
 return (
@@ -7,7 +12,7 @@ return (
 <section id="CreationAndCustomization" className=" flex justify-center items-center md:py-20 py-10 px-4">
   <div className=' flex flex-col items-center justify-center gap-16 r md:max-w-6xl w-full'>
     <h3 className="lg:text-center text-center text-2xl text-teal-600">
-      Criação <span className="text-red-400"> e</span> personalização</h3>
+      Criação <span className={`${sacramento.className} text-red-500 text-5xl`}> e </span> personalização</h3>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
       <div className="flex flex-col gap-5 items-center justify-center">
         <picture>

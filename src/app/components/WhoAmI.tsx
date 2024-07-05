@@ -2,16 +2,19 @@
 
 import { Sacramento } from "next/font/google";
 
+// Importe a fonte Sacramento conforme necessário
+const sacramento = Sacramento({ weight: '400', subsets: ['latin'] })
+
 export function WhoAmI() {
 
 return (
 <div id="WhoAmI" className="relative h-screen">
-  <div className="absolute inset-0 flex flex-col justify-center items-center md:mt-10 mt-24 z-20">
+  <div className="absolute inset-0 flex flex-col justify-center items-center md:mt-24 mt-36 z-20">
 <div>
-<h1 className="md:text-9xl text-4xl text-white text-center relative">
+<h1 className={`${sacramento.className} md:text-[10.9rem] text-5xl text-white text-center relative`}>
       Andréa Nogueira
     </h1>
-    <h2 className="md:text-2xl text-xl font-extralight mt-4 text-white ">
+    <h2 className="md:text-2xl text-xl font-extralight md:-mt-8 text-white ">
     Artesã
     </h2>
 </div>
@@ -26,7 +29,7 @@ return (
       <div className="absolute inset-0 bg-teal-600 opacity-80"></div>
       <div
         className="relative z-10 flex w-full md:pl-[25rem] md:pr-6.5 md:px-0 px-3 pt-20 justify-end md:items-start items-center h-full">
-        <h1 className="md:text-2xl font-normal text-xl md:text-left text-center text-white md:mr-20 md:leading-relaxed">“Quero tornar
+        <h1 className="md:text-2xl font-normal text-lg md:text-left text-center text-white md:mr-20 md:leading-relaxed">“Quero tornar
           material aquilo que as clientes imaginaram. Criando assim peças únicas, com grande variedade e com uma fonte
           inesgotável de criação - sem jamais renunciar ao espírito artesanal daqueles que trabalham por prazer.”</h1>
       </div>
