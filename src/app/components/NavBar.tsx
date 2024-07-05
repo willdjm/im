@@ -64,23 +64,23 @@ return (
   {isOpen && (
   <div className="sm:hidden bg-white">
     <div
-      className="px-2 pt-2 pb-3 space-y-7 text-center flex flex-col items-center justify-center text-teal-600 text-base">
-      <Link href='/' className='border border-b-red-400'>
+      className="px-2 pt-2 pb-10 space-y-7 text-center flex flex-col items-center justify-center text-teal-600 text-base">
+      <Link href='/' className='border-b border-b-red-400'>
       Home
       </Link>
-      <Link href='#CreationAndCustomization' className='border border-b-red-400'>
+      <Link href='#CreationAndCustomization' className=' border-b border-b-red-400'>
       O que eu faço
       </Link>
-      <Link href='#WhoAmI' className='border border-b-red-400'>
+      <Link href='#WhoAmI' className='border-b border-b-red-400'>
       Quem sou eu
       </Link>
-      <Link href='#WhereDoISell' className='border border-b-red-400'>
+      <Link href='#WhereDoISell' className='border-b border-b-red-400'>
       Onde eu vendo
       </Link>
-      <Link href='#CustomerReviews' className='border border-b-red-400'>
+      <Link href='#CustomerReviews' className='border-b border-b-red-400'>
       O que dizem
       </Link>
-      <Link href='#TalkToMe' className='border border-b-red-400'>
+      <Link href='#TalkToMe' className='border-b border-b-red-400'>
       Fale comigo
       </Link>
     </div>

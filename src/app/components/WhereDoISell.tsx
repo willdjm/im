@@ -4,7 +4,7 @@ export function WhereDoISell() {
 
 return (
       <section id="WhereDoISell"
-            className="bg-[url('/bg-pedido-compra.webp')] bg-center md:bg-cover flex justify-center items-center py-10 h-[30rem] px-4">
+            className="bg-[url('/bg-pedido-compra.webp')] bg-center bg-cover flex justify-center items-center py-10 h-[30rem] px-4">
             <div
                   className='md:justify-between grid md:flex justify-items-center md:max-w-6xl w-full relative gap-10 md:gap-0'>
                   <div className="flex-col md:flex items-center justify-center w-full">
