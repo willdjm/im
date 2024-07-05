@@ -64,7 +64,7 @@ return (
   {isOpen && (
   <div className="sm:hidden bg-white">
     <div
-      className="px-2 pt-2 pb-10 space-y-7 text-center flex flex-col items-center justify-center text-teal-600 text-base">
+      className="px-2 pt-2 pb-16 space-y-7 text-center flex flex-col items-center justify-center text-teal-600 text-base">
       <Link href='/' className='border-b border-b-red-400'>
       Home
       </Link>
